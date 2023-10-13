@@ -5,7 +5,7 @@ import { Select } from "@chakra-ui/react";
 export const LeaderboardFilter: React.FC = () => {
   return (
     <Flex
-      h={"20%"}
+      h={"70px"}
       backgroundColor="#F4F4F7"
       flexDir="column"
       mx="2%"

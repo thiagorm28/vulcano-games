@@ -7,7 +7,7 @@ import React from "react";
 export default function Home() {
   return (
     <Main>
-      <Flex flexDir="column">
+      <Flex flexDir="column" h="100vh">
         <LeaderboardFilter />
         <LeaderboardTable />
       </Flex>

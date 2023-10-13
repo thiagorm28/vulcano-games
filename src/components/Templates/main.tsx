@@ -8,13 +8,10 @@ type Props = {
 
 export const Main: React.FC<Props> = ({ children }) => {
   return (
-    <Flex
-      h={"100vh"}
-      overflow="hidden"
-      backgroundColor="#babac2"
-      flexDir="column"
-    >
-      <VulcanoGamesLogo />
+    <Flex overflow="hidden" backgroundColor="#BABAC2" flexDir="column">
+      <Flex justifyContent="center">
+        <VulcanoGamesLogo />
+      </Flex>
       {children}
     </Flex>
   );

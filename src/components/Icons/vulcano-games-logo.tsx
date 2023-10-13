@@ -7,10 +7,10 @@ export const VulcanoGamesLogo: FC<IconProps> = () => {
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
       viewBox="0.00 0.00 420.00 594.00"
-      width={"100%"}
-      height={"40%"}
-      mt="-90px"
-      mb="-80px"
+      width={{ base: "60%", md: "540px" }}
+      height={{ base: "60%", md: "540px" }}
+      mt={{ base: "-90px", md: "-140px" }}
+      mb={{ base: "-80px", md: "-140px" }}
     >
       <g stroke-width="2.00" fill="none" stroke-linecap="butt">
         <path

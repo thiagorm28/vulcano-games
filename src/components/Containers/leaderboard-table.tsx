@@ -1,11 +1,9 @@
 import React from "react";
 import {
   Table,
-  TableCaption,
   TableContainer,
   Tbody,
   Td,
-  Tfoot,
   Th,
   Thead,
   Tr,
@@ -15,7 +13,6 @@ export const LeaderboardTable: React.FC = () => {
   return (
     <TableContainer mt="30px" mx="2%" borderRadius="4">
       <Table variant="striped">
-        <TableCaption>Leaderboard</TableCaption>
         <Thead bgColor="#C52235">
           <Tr>
             <Th>Posição</Th>
